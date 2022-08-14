@@ -1,0 +1,40 @@
+
+.back-video{
+    position: absolute;
+    background-size: cover;
+    right:0;
+    bottom: 0;
+    z-index: -1;
+    
+
+}
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;}
+    }
+    a{
+    padding: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+button{
+    background-color: orange;
+}
+a :hover{
+background-color: white;
+color: orange;
+}
+h1{
+    color: white;
+}
+ol{
+    color:white;
+}
+
